@@ -1,0 +1,13 @@
+# Fine riga normalizzati a LF su tutti i sistemi
+* text=auto eol=lf
+
+# File binari
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.woff2 binary
+
+# Dati generati dal bot: nascosti nei diff delle pull request
+data/giochi.json linguist-generated=true
